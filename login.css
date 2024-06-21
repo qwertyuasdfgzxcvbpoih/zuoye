@@ -1,0 +1,89 @@
+.content{
+	min-height: 700px;
+}
+.logineLine{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.logineLine>div{
+	margin: 0px 100px;
+}
+.logineLine>div>a{
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	color: #8b8c8f;
+	line-height: 40px;
+}
+.logineLine>div>a[index='1'], .logineLine>div>a:hover{
+	border-bottom: 2px solid #016e82;
+	color: #016e82;
+}
+.content{padding: 0px;margin: 0;width: 100%;}
+.formBg{
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	margin: 30px 0px 60px 0px;
+}
+.form{
+	width: 400px;
+	margin: 0px auto;
+}
+.form>h1{
+	margin: 0;
+	margin-bottom: 40px;
+	font-size: 40px;
+	font-weight: normal;
+}
+.username, .password{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px 0px 10px 50px;
+	height: 40px;
+	margin-bottom: 30px;
+	background: url(../images/username.png) 10px center no-repeat;
+	background-size: 30px auto !important;
+}
+.password{background: url(../images/password.png) 10px center no-repeat;}
+.form>div>input{
+	width: 90%;
+	height: 35px;
+	border: none !important;
+	outline: none !important;
+	font-size: 20px;
+}
+.btn>button{
+	background-color: #336fff;
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.btn>button>a{
+	color: #fff;
+	text-decoration: none;
+}
+.linkLine{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.linkLine>a{
+	font-size: 15px;
+	color: #8b8c8f;
+	text-decoration: none;
+}
+.linkLine>a:last-child{
+	color: #336fff;
+}

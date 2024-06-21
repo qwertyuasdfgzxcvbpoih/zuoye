@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="./css/common.css" />
+		<link rel="stylesheet" href="./css/login.css" />
+	</head>
+	<body>
+		<div class="nav">
+			<div class="logo">
+				<div class="logoTxt"><img src="./images/logo.png" alt="" /> <h1>传播学</h1></div>
+				<a href="./login.html">
+					<div class="userTxt"><img src="./images/user.png" alt="" /> <h3>杭州电子科技大学</h3></div>
+				</a>
+			</div>
+			<div class="pic">
+				<img src="./images/navBg.jpeg" alt="" />
+			</div>
+			<div class="logineLine">
+				<div><a href="#" onclick="linkOnClick(0)">注册</a></div>
+				<div><a index='1' href="#" onclick="linkOnClick(1)">登录</a></div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="formBg">
+				<div class="form">
+					<h1>欢迎使用</h1>
+					<div class="username">
+						<input type="text" name="username" id="username" placeholder="请输入您的账号">
+					</div>
+					<div class="password">
+						<input type="password" name="password" id="password" placeholder="请输入您的密码">
+					</div>
+					<div class="btn">
+						<button onclick="checValue()"><a>登录</a></button>
+					</div>
+					<div class="linkLine">
+						<a href="./login.html">忘记密码</a>
+						<a href="#" onclick="linkOnClick(0)">注册账号</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="footer">联系我们<br />XXXXXXXXXXX</div>
+		<script src="js/login.js"></script>
+	</body>
+</html>

@@ -1,0 +1,70 @@
+.ulBox{
+	padding: 10px;
+	border: 1px solid #71bec6;
+	border-radius: 20px;
+	background-color: #dbfdfd;
+	margin-bottom: 20px;
+}
+.ulBox>h1{
+	margin: 0;
+	margin-left: 20px;
+	width: 50%;
+	border-bottom: 2px solid #1c2020;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+.ulBox>h1>a{
+	color: #1c2020;
+	text-decoration: none;
+	font-size: 25px;
+}
+.ul{
+	display: flex;
+	flex-direction: row;
+}
+.ulList{
+	flex: 1;
+	padding-right: 10px;
+}
+.ulList[index='2']{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.ulImg{
+	width: 50%;
+	display: flex;
+}
+.ulImg>img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto 0;
+}
+.ulList>p{
+	font-size: 20px;
+	color: #2b91a0;
+	margin: 25px 0px;
+	padding-left: 50px;
+	position: relative;
+}
+.ulList[index='2']>p{
+	padding-left: 0px;
+	padding-right: 50px;
+}
+.ulList>p::after{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 30px;
+	height: 30px;
+	background-color: #71bec6;
+	border-radius: 50%;
+	content: " ";
+}
+.ulList[index='2']>p::after{
+	left: calc(100% - 50px);
+}
+.ulList>p:hover::after{
+	background-color: #2b91a0;
+}
